@@ -19,8 +19,6 @@ export default function Hero() {
       className={`
         flex flex-col items-center justify-start pt-16 p-8
         min-h-[40vh]
-        bg-gray-900
-        md:bg-gradient-to-b md:from-gray-900 md:via-gray-800 md:to-gray-900
       `}
     >
       <div className={`
@@ -42,8 +40,8 @@ export default function Hero() {
               {isClient && (
                 <Typewriter
                   words={[
-                    'Programador FullStack _', 
-                    'Estudante em Engenharia de Software _'
+                    'Programador FullStack', 
+                    'Estudante em Engenharia de Software'
                   ]}
                   loop={true}
                   cursor
